@@ -1,0 +1,86 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+p {
+  margin:40px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+table {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 5px 5px 0 5px;
+}
+
+.form-box {
+  margin: 15px 0 10px;
+}
+
+.form-box-title input {
+  width: 11em;
+}
+
+.form-body {
+  margin-top: 10px;
+}
+
+textarea {
+  width: 12em;
+}
+
+.btn input {
+  margin: 10px 0 5px;
+  padding:3px 7px 3px;
+}
+
+.flash-message.notice, .flash-message.update, .flash-message.delete {
+  color: green;
+  margin: 30px;
+}
+
+.errors {
+  color: red;
+}
